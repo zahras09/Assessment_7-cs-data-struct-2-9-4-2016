@@ -1,0 +1,59 @@
+Recursion
+1. A function that calls itself creating a loop in order to dig deeper inside that function in order to get to the answer. basically taking the original problema and dividing it into smaller pieces to solve and putting it back together again to get the final answer.
+
+2. The purpose of Base Case is to tell the recursion when to stop.
+
+
+
+Graphs
+1. Graphs are similar to trees except that they can contain loops. Graphs are typically used in order to model relationships between things.
+
+2. Trees have heiarchies and graphs don't. Trees don't contain a loop but graphs do. All trees are considered graphs but not all graphs are trees. 
+
+3. Basically anything that you need to see the relationship of would be good to model with a graph. List of who's friends with who, price of plane tickets in relation to different destinations and so on. 
+
+Fill in the runtimes for the following actions for the table below:
+
+Data Structure              Index   Search  Add-R   Add-L   Pop-L   Pop-R
+-----------------------------------------------------------------------------
+Python List (Array)         O(1)    O(n)    O(1)    O(n)    O(n)    O(1)
+-----------------------------------------------------------------------------
+Linked List                 O(n)    O(n)    O(1)    O(1)    O(1)    O(n)
+-----------------------------------------------------------------------------
+Doubly-Linked List          O(n)    O(n)    O(1)    O(1)    O(1)    O(1)
+-----------------------------------------------------------------------------
+Queue (as Array)            X        X      O(1)      X     O(n)      X
+-----------------------------------------------------------------------------
+Queue (as LL or DLL)        X        X      O(1)      X     O(1)      X
+-----------------------------------------------------------------------------
+Stack (as Array, LL,or DLL) X        X      O(1)      X      X      O(1)
+-----------------------------------------------------------------------------
+Deque (as DLL)              X        X      O(1)     O(1)   O(1)    O(1)
+-----------------------------------------------------------------------------
+
+
+Data Structure           Get    Add     Delete  Iterate     Memory
+-----------------------------------------------------------------------------
+Dictionary (Hash Map)   O(1)    O(1)    O(1)    O(n)        medium
+-----------------------------------------------------------------------------
+Set (Hash Map)          O(1)    O(1)    O(1)    O(n)        medium
+-----------------------------------------------------------------------------              
+Binary Search Tree      O(log n) O(n)   O(n)    O(1)        high
+-----------------------------------------------------------------------------               
+Tree                    O(n)    O(1)    O(1)    O(1)        medium
+----------------------------------------------------------------------------- 
+
+
+Sorting
+1. Bubble sort takes two and index compares to the one on the right, compares, sorts and moves to the next two indices, and so on. the cycle continues untill the largets number is on the right and the second largest number is one to last and so on. 
+
+2. Merge sort divivdes the list in half and and sorts both halves at the same time.
+
+3. Quick sort, does a quick sort first with the smaller numbers on one side and large numebrs on the other, selects a pivot point then sorts again with. This is using the sort and divide and conquer. As a result the pivot only moves once per iteration.  
+
+
+Git Branching
+1. Git branching is good ifyou want to test something and don't want it to affect your main work file. 
+2. Pull request allows others to know about the changes that's been pushed to github.    
+
+
